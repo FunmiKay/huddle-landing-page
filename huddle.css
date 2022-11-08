@@ -1,0 +1,270 @@
+/* ## Colors
+
+### Primary
+
+- Pink: hsl(322, 100%, 66%)
+- Light Pink: hsl(321, 100%, 78%)
+- Light Red: hsl(0, 100%, 63%)
+
+### Neutral
+
+- Very Dark Cyan: hsl(192, 100%, 9%)
+- Very Pale Blue: hsl(207, 100%, 98%)
+
+## Typography
+
+### Headings
+
+- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+- Weights: 700
+
+### Body
+
+- Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
+- Weights: 400, 600, 700
+ */
+/* @import url [Poppins] (https://fonts.google.com/specimen/Poppins);
+@import url [Open Sans] (https://fonts.google.com/specimen/Open+Sans); */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+ul{
+    list-style-type: none;
+}
+
+header{
+    background: url('./images/bg-section-top-desktop-1.svg');
+    background-color: hsl(207, 100%, 98%);
+    padding: 40px 60px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 7%;
+}
+nav .btn{
+    background-color: #fff;
+    border-color: hsl(321, 100%, 78%);
+    color:hsl(321, 100%, 78%)
+} 
+
+nav img{
+    height: 35px;
+}
+
+.btn{
+    padding: 15px 60px;
+    background-color: #fff;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 3px 16px rgba(0,0,0,0.12);
+
+}
+ .build-1{
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; 
+  width: 100%;
+} 
+.mockups{
+    width: 70%;
+}
+.mockups img{
+    width: 100%;
+}
+h1{
+ font-weight: 800;
+ margin-bottom: 2rem;
+ font-size: 3rem; 
+ font-family: sans-serif;
+ color:hsl(192, 100%, 9%);  
+}
+
+p{
+    width: 50%;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.build, .btn{
+    background-color:  hsl(322, 100%, 66%);
+    color: #fff;
+    padding: 15px 70px;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+}
+
+.counts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10rem;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+.counts h1{
+    font-size: 5rem;
+}
+.counts p{
+    width: unset;
+    color:  gray;
+    font-weight: 400;
+}
+
+.flex-area{
+    background: url('./images/bg-section-top-desktop-2.svg');
+    background-color: hsl(207, 100%, 98%); 
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    width: 100%;
+    padding: 10rem;
+}
+.service-1{
+    padding-right: 5rem;
+    padding-top: 10rem;
+}
+.service-1 h2{
+   margin-bottom: 2rem; 
+   color: hsl(192, 100%, 9%);
+   font-weight: 800;
+   font-size: 3rem;
+   font-family: sans-serif;
+}
+.service-1 p{
+    color: hsl(192, 100%, 9%);
+    width: unset;
+}
+.flex-area-2{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    margin-top: 3rem;
+    width: 100%;
+    padding: 10rem;
+}
+.flowing{
+    padding-left: 5rem;
+    padding-top: 10rem;
+}
+.flowing h2 {
+margin-bottom: 2rem;
+color: hsl(192, 100%, 9%);
+font-weight: 800;
+font-size: 3rem;
+font-family: sans-serif;
+}
+.flowing p{
+    color: hsl(192, 100%, 9%);
+    width: unset;
+}
+.flex-area-3{
+    background: url('./images/bg-section-top-desktop-2.svg');
+    background-color: hsl(207, 100%, 98%); 
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    width: 100%;
+    padding: 10rem;
+}
+.service-3{
+    padding-right: 5rem;
+    padding-top: 10rem;
+}
+.service-3 h2{
+   margin-bottom: 2rem; 
+   color: hsl(192, 100%, 9%);
+   font-weight: 900;
+   font-size: 3rem;
+   font-family: sans-serif;
+}
+.service-3 p{
+    color: hsl(192, 100%, 9%);
+    width: unset;
+}
+.ready{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 10rem;
+}
+.ready h1{
+color: hsl(192, 100%, 9%);
+font-weight: 800;
+font-size: 3rem;
+font-family: sans-serif;
+}
+footer{
+    display: flex;
+    background-color: hsl(192, 100%, 9%);
+}
+.sec-1{
+    padding: 10%;
+}
+.sec-1 img{
+    -webkit-filter: brightness(300%);
+    align-self: center;
+    margin-bottom: 1.5rem;
+}
+.sec-1 h1{
+    -webkit-text-fill-color: #fff;
+    margin-right:10px;
+}
+.huddle{
+    display: inline-flex;
+    width: 100%;
+    gap: 10px;
+}
+.sec-1 p{
+    color: #fff;
+}
+.phone{
+    display: flex;
+    gap: 10px;
+}
+.envelop{
+    display: flex;
+    gap:10px;
+} 
+.social ul{
+    display: flex;
+    gap: 10px;
+}
+.sec-2{
+    padding: 10%;
+}
+.sec-2 h1{
+    -webkit-text-fill-color: #fff;
+    font-size: 1.5rem;
+}
+.sec-2 p{
+    -webkit-text-fill-color: #fff;
+}
+.search{
+    display: flex;
+}
+.search input{
+    width: 100%;
+    height: 2.5rem;
+}
+.search btn{
+
+}
