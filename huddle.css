@@ -177,10 +177,10 @@ margin-bottom: 1rem;
 .grow img{
     width: 50%;
 }
-.service-1{
+/* .service-1{
     padding-right: 5rem;
     padding-top: 10rem;
-}
+} */
 .service-1 h2{
    margin-bottom: 2rem; 
    color: hsl(192, 100%, 9%);
@@ -311,6 +311,7 @@ margin-bottom: 2rem;
        height: 150px;
        background-repeat: no-repeat;
        background-size: cover;
+       margin-bottom: -2px;
       }
 
 footer{
@@ -377,31 +378,26 @@ footer{
     -webkit-text-fill-color: #fff;
 }
 
-form{
-    display: flex;
-    width: 100%;
-    flex-basis: 500px;
-    flex-grow: 1;
-}
-
 input{
     width: 200px;
     height: 2.5rem;
     border-radius: 5px;
+    margin-bottom: .5rem;
 }
 
 .btn-4{
 border-radius: 5px;
-width: 25%;
 margin-left: 2rem;
 background-color: hsl(322, 100%, 66%);
 color: #fff;
 font-size: 20px;
 border: none;
+margin-left: auto;
+padding: .5rem 1.5rem;
 }
 
 @media only screen and (max-width:950px) {
-    .people{
+    /* .people{
         margin-bottom: 30%;
     }
     .messages{
@@ -431,5 +427,5 @@ border: none;
     }
     .sec-1{
         margin: unset;
-    }
+    } */
 }
