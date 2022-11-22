@@ -289,6 +289,7 @@ font-weight: 800;
 font-size: 3rem;
 font-family: sans-serif;
 margin-bottom: 2rem;
+line-height: inherit;
 }
 .ready .btn{
     background-color:  hsl(322, 100%, 66%);
@@ -397,7 +398,7 @@ padding: .5rem 1.5rem;
 }
 
 @media only screen and (max-width:950px) {
-    /* .people{
+     .people{
         margin-bottom: 30%;
     }
     .messages{
@@ -425,7 +426,10 @@ padding: .5rem 1.5rem;
     footer{
         flex-direction: column-reverse;
     }
+    .btn-4{
+        margin-left: 3.7rem;
+    }
     .sec-1{
-        margin: unset;
-    } */
+        margin-top: -10rem;
+    } 
 }
